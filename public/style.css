@@ -34,6 +34,7 @@ html {
 }
 
 .btn {
+    width: auto;
     text-decoration: none;
     color:var(--color-2);
     padding: 30px;
@@ -128,6 +129,11 @@ html {
     padding: 5px;
 }
 .message {
+    font-weight: lighter;
+    padding: 30px;
+}
+
+.infomain {
     font-weight: lighter;
     padding: 30px;
 }

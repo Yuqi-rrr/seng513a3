@@ -12,18 +12,6 @@ let enemyReady = false;
 //let shotfired = -1
 
 const socket = io();
-//Get your player number
-socket.on('player-number', num => {
-    console.log(playerNum);
-    if(num == -1) {
-        console.log(playerNum);
-    } else {
-        playerNum = parseInt(num);
-        if(playerNum == 1) currentPlayer = "enemy";
-
-        console.log(playerNum);
-    }
-});
 
 /**
  * define constant

@@ -2,7 +2,7 @@
 <head>
     <title>landingpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="app.js"></script>
+    <script defer src="index.js"></script>
     <script src="/socket.io/socket.io.js"></script>
 
 </head>
@@ -11,10 +11,21 @@
     <div class="title">
         <span class = "bold">DOTS & BOXES</span>
         <br>
-        for three players
+        
+        <div class = "infomain">create room or join room</div>
+        
+        <a id = "creategame" class = "btn"> Create a game </a>
         <br>
         <br>
-        <a class = "btn"> Create a game </a>
+
+    
+        enter password to join
+        <input type="text" id="password" name="password"><br>
+        enter name
+        <input type="text" id="name" name="name">
+        <br>
+        <button type="button" id="submit">Start Game</button>
+
     </div>
 
 
