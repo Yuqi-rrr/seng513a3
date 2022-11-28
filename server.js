@@ -37,7 +37,6 @@ io.on('connection', socket => {
     //ignore player 3
     if (playerIndex == -1) return;
 
-
     socket.on('room-number', room => {
         roomID = room;
         console.log(roomID);
