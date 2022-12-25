@@ -37,7 +37,7 @@ html {
     width: auto;
     text-decoration: none;
     color:var(--color-2);
-    padding: 30px;
+    padding: 10px;
     background-color: var(--color-P2);    
     transition: 0.3s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -145,6 +145,10 @@ html {
     display: block;
     align-self: center;
     font-size: 35px;
+}
+
+.Lp0:hover{
+    background-color: var(--color-2);
 }
 
 .Lp1:hover {
